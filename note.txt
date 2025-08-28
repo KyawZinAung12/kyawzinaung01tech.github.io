@@ -19,3 +19,10 @@ local folder =>
 -git add .
 -git commit -m "message"
 -git push
+
+
+
+
+git branch
+git checkout -b branch_name
+git checkout branch_name
