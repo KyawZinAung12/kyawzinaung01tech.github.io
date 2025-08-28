@@ -23,6 +23,6 @@ local folder =>
 
 
 
-git branch
-git checkout -b branch_name
-git checkout branch_name
+git branch // show branch list
+git checkout -b branch_name // create new branch list
+git checkout branch_name // switch branch
