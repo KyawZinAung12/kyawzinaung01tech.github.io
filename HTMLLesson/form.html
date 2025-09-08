@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="imphones/logo.jpg">
+</head>
+<body>
+    <h1>Student Register</h1>
+
+    <!-- GET / POST -->
+    <form action="register.php" method="GET">
+
+        <div>
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br><br>
+        <div>
+            <label for="name">Student Name</label><br>
+            <input type="text" id="name" name="studentName" placeholder="eg:Mg Mg"   minlength="10" maxlength="20">
+        </div>
+
+        <br><br>
+        <div>
+            <label for="age">Student Age</label><br>
+            <input type="number" name="studentAge" id="age" value="18" min="18" max="30" step="0.01">
+        </div>
+        <br><br>
+
+        <div>
+            <label for="phone">Student Phone</label><br>
+            <input type="number" name="studentphone" id="phone" placeholder="09********">
+        </div>
+
+        <br><br>
+        <div>
+            <label for="email123">Email</label><br>
+            <input type="email" placeholder="example@gmail.com" id="email123" name="studentEmail">
+        </div>
+
+        <br><br>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+
+        </div>
+
+        <br><br>
+
+        <div>
+            <label for="dob">DOB</label><br>
+            <input type="date" id="dob" name="dob">
+        </div>
+
+        <br><br>
+
+        <label for="">Gender</label>
+        <div>
+            <input type="radio" id="male" value="Male" name="gender">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="female" value="Female" name="gender">
+            <label for="female">Female</label>
+        </div>
+
+        <br><br>
+
+        <label for="">Hobbies</label>
+        <div>
+            <input type="checkbox" id="reading" value="reading" name="reading">
+            <label for="reading">Reading</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Dancing" value="Dancing" name="dancing">
+            <label for="Dancing">Dancing</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Travelling" value="Travelling" name="travelling">
+            <label for="Travelling">Travelling</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Swimming" value="Swimming" name="swimming">
+            <label for="Swimming">Swimming</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Singing" value="Singing" name="singing">
+            <label for="Singing">Singing</label>
+        </div>
+
+        <br><br>
+        <label for="education">Eduction</label>
+        <select name="education" id="education">
+            <option value="0">Choose Eduction</option>
+            <option value="1">First Year</option>
+            <option value="2" selected>Second Year</option>
+            <option value="3">Third Year</option>
+            <option value="4">Fourth Year</option>
+            <option value="5">Final Year</option>
+        </select>
+
+
+        <br><br>
+
+        <fieldset>
+            <legend>Rules</legend>
+            <ol>
+                <li>This is Rule No 1</li>
+                <li>This is Rule No 2</li>
+                <li>This is Rule No 3</li>
+                <li>This is Rule No 4</li>
+                <li>This is Rule No 5</li>
+            </ol>
+        </fieldset>
+
+        <br><br>
+
+
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" id="address"></textarea>
+        </div>
+        <br><br>
+
+
+       
+
+
+        <button type="submit">Rrgister</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
