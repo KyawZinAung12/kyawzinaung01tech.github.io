@@ -1,0 +1,72 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+/* id selector */
+#one{
+    color: green;
+    line-height: 25px;
+    word-spacing: 25px;
+    text-transform: capitalize;
+}
+
+#two{
+    color: yellow;
+    line-height: 25px;
+    word-spacing: 25px;
+    text-transform: capitalize;
+}
+
+/* class selector */
+.classselector{
+    color: brown;
+    line-height: 20px;
+    text-indent: 50px;
+    text-transform: uppercase;
+}
+
+
+
+/* Child */
+#child > a{
+    color: red;
+}
+
+/* descendent */
+
+#desc a{
+    color: green;
+}
+
+/* pseudo selector */
+
+a:link{
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+    font-size: 40px;
+}
+a:visited{
+    color: brown;
+}
+
+
+/* target */
+
+p:target{
+    color: brown;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+div:target{
+    color: green;
+    text-transform: uppercase;
+    line-height: 20px;
+}
