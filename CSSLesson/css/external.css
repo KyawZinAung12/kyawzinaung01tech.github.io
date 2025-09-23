@@ -249,3 +249,28 @@ div:target{
     font-family: "Oswald";
 }
 
+/* media css */
+/* phone size */
+@media (max-width:600px){
+    body{
+        background-color: blue;
+    }
+}
+/* tablet size */
+@media (min-width: 601px) and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+}
+/* laptop size */
+@media (min-width: 901px) and (max-width: 1200px){
+    body{
+        background-color: yellow;
+    }
+}
+/* extra laptop size */
+@media (min-width: 1201px){
+    body{
+        background-color: green;
+    }
+}

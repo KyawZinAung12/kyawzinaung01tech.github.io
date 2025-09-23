@@ -1,0 +1,52 @@
+@font-face {
+    src: url(../font/Playfair/Playfair-VariableFont_opsz\,wdth\,wght.ttf);
+    font-family: "playfair";
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "playfair";
+}
+/* start nav */
+.nav_logo{
+    width: 240px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.nav_item{
+    float: right;
+}
+
+.nav_item li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.nav_item li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav_item li a:hover{
+    color: #234981;
+}
+
+.get_started{
+    background-color: #234981;
+    color: #FFFFFF !important;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #234981;
+
+}
+
+.get_started:hover{
+    background-color: #FFFFFF;
+    color: #234981 !important;
+    border: 1px solid #234981;
+}
+
+/* end nav */
