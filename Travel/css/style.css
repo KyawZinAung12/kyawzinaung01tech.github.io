@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../font/Playfair/Playfair-VariableFont_opsz\,wdth\,wght.ttf);
+    src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
     font-family: "playfair";
 }
 *{
@@ -20,7 +20,7 @@
 
 .nav_item li{
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 60px;
 }
 
@@ -50,3 +50,97 @@
 }
 
 /* end nav */
+
+/* start bunner */
+.bunner_image{
+    width: 100%;
+}
+.bunner{
+    position: relative;
+}
+.bunner_text{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.bunner_text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.bunner_text p{
+    font-size: 20px;
+}
+
+.bunner_text a{
+    border: 1px solid #234981;
+    background-color: #FFFFFF;
+    color: #234981;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.bunner_text a:hover{
+    border: 1px solid #234981;
+    background-color: #234981;
+    color: #FFFFFF;
+}
+
+/* end bunner */
+
+
+/* start popular destionation */
+.popular{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.popular_card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    grid-gap: 30px;
+}
+.popular_card img{
+    width: 100%;
+}
+.popular_item{
+    border: 1px solid #d7d7d7;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.popular_item h3{
+    padding: 5px 15px;
+}
+
+.popular_item p{
+    padding: 5px 15px;
+}
+
+.popular_item button{
+    padding: 10px;
+    float: right;
+    background-color: #234981;
+    color: #FFFFFF !important;
+    border: 1px solid #234981;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.popular_item img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+.popular_hover{
+    overflow: hidden;
+}
+
+/* end popular destionation */
+
