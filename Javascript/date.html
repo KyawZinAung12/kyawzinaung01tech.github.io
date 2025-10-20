@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Date Fuction</h1>
+    <p id="clock"></p>
+
+    <script>
+        let toDayDate =new Date();
+        console.log(toDayDate);
+        let fullYear = toDayDate.getFullYear();
+        console.log(fullYear);
+        let getMonth = toDayDate.getMonth();
+        console.log(getMonth + 1);
+
+        let fullDate = toDayDate.getDate();  // 1 to 31
+        console.log(fullDate);
+
+        let getDay = toDayDate.getDay();
+        console.log(getDay);
+        console.log(toDayDate.getHours());
+        console.log(toDayDate.getMinutes());
+        console.log(toDayDate.getSeconds());
+        console.log(toDayDate.toLocaleTimeString());
+
+
+
+        function showTime() {
+            let date = new Date();
+            let seconds = date.toLocaleTimeString();
+            let clock = document.getElementById('clock');
+            clock.innerHTML = seconds;
+        }
+
+        setInterval(showTime,1000);
+
+
+
+
+        
+        
+
+        
+        
+    </script>
+</body>
+</html>

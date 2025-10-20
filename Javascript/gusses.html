@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let screctNo = 7;
+        let guessNo = prompt("Enter a number between 0 to 9");
+        while (guessNo != screctNo) {
+            if (guessNo < screctNo) {                
+                alert('Your Number is Lower, Please Try again!');
+            }else{
+                alert('Your Number is Greather, Please Try again!');
+            }
+
+            guessNo = prompt("Enter a number between 0 to 9");
+        }
+
+
+
+        document.write('Correct');
+        
+    </script>
+    
+    
+</body>
+</html>
