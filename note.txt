@@ -26,3 +26,19 @@ local folder =>
 git branch // show branch list
 git checkout -b branch_name // create new branch list
 git checkout branch_name // switch branch
+
+
+
+Bootstrap Project 
+--------------
+
+Logo - color 60 30 10
+Font Style - 
+
+
+Home Page 
+-----
+Best Seller
+
+Nav bar
+Home,Category,Promotion Product,About,Contact,Shopping Cart,Login,Search,Wishlist

@@ -1,0 +1,274 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../font/Oswald/Oswald-VariableFont_wght.ttf");
+}
+*{
+    font-family: "Oswald";
+}
+
+/* start nav */
+.logo{
+    width: 150px;
+}
+
+.nav_item:hover{
+    color: #dc3545 !important;
+}
+
+.active{
+    color: #dc3545 !important;
+}
+
+.cart_noti{
+    position: relative;
+    top: -15px;
+    left: -12px;
+}
+
+/* end nav */
+
+
+/* start carousel */
+.carousel_img{
+    height: 65vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* end carousel */
+
+
+/* start service */
+
+.service_icon{
+    width: 60px;
+    height: 60px;
+}
+
+.service_card:hover{
+    transform: translateY(-5px);
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+/* end service */
+
+
+/* start promotion */
+.title_underline{
+    width: 80px;
+    height: 4px;
+}
+.fav_icon:hover{
+    background-color: #dc3545;
+}
+.fav_icon:hover .heart_icon{
+    color: white !important;
+}
+/* end promotion */
+
+
+/* start category */
+.category_card:hover .category_img{
+    filter:brightness(60%);
+    transition: all .5s ease;
+}
+
+.category_img:hover{
+    transform : scale(1.06);
+}
+/* end category */
+
+
+/* start blog */
+
+.blog_date{
+    left: 20px;
+}
+
+.blog_img:hover{
+    transform: scale(1.1);
+    transition: all .8s ease;
+}
+/* end blog */
+
+
+/* start partner */
+
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+/* end partner */
+
+
+
+
+/* start footer */
+.footer {
+  background-color: #111;
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+.footer .footer-link {
+  color: #bbb;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+
+.footer .footer-link:hover {
+  color: #dc3545; /* red accent */
+}
+
+.footer .social-icons a {
+  transition: all 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #dc3545;
+  transform: translateY(-3px);
+}
+
+.footer hr {
+  opacity: 0.2;
+}
+
+/* end footer */
+
+
+/* start product detial */
+.thumb_img{
+    width: 85px;
+    height: 85px;
+}
+.color_btn{
+    width: 35px;
+    height: 35px;
+}
+.size_btn{
+    width: 40px;
+    height: 40px;
+}
+.quantity_number{
+    width: 120px !important;
+}
